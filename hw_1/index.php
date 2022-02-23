@@ -77,12 +77,16 @@ $driveLicense = null;
             </div>
         </nav>
     </header
-    <div>
-        <?php
-        if(is_string($name)) {
-            echo $name . 'Является строкой';
-        }
-        ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <?php
+                if(is_string($name)) {
+                    echo $name . ' - является строкой';
+                }
+                ?>
+            </div>
+        </div>
     </div>
 </div>
 </body>
